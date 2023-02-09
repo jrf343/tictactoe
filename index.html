@@ -9,6 +9,25 @@
 </head>
 <body>
     <h1 id="header">Let's play Tic Tac Toe... </h1>
+    <div class="playerHead" id="playerX">
+        <h2 id="x">X</h2>
+        <p id="playerOneHead"></p>
+    </div>
+    <div class="playerHead" id="playerO">
+        <h2 id="o">O</h2>
+        <p id="playerTwoHead"></p>
+    </div>
+    <button id="newGame">BEGIN GAME</button>
+    <div class="formDisplay">
+        <form>
+            <h3>Please input your names: </h3>
+            <label for="playerOne">Player One: </label>
+            <input type="text" id="playerOne" name ="playerOne">
+            <label for="playerTwo">Player Two: </label>
+            <input type="text" id="playerTwo" name ="playerTwo">
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+    </div>
     <div id="container">
     </div>
     <script src="tictactoe.js"></script>
