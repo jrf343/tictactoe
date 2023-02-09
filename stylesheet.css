@@ -11,6 +11,65 @@ body {
     font-size: 50px;
 }
 
+.playerHead {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 2px;
+    top: 5%;
+}
+
+h2 {
+    font-size: 100px;
+    margin: 10px;
+}
+
+#playerX {
+    left: 15%;
+    color: darkred;
+    text-shadow: 1px 1px 2px skyblue, 3px 3px 6px skyblue;
+}
+
+#playerO {
+    left: 80%;
+    color: skyblue;
+    text-shadow: 1px 1px 2px darkred, 3px 3px 6px darkred;
+}
+
+p {
+    font-size: x-large;
+}
+
+
+#newGame {
+    margin: 10px;
+    font-size: x-large;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    color: darkred;
+}
+
+.formDisplay {
+    position: absolute;
+    display: none;
+    left: 57%;
+    top: 10%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    z-index: 10;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+}
+
 #container {
     display: grid;
     border: 5px solid darkred;
